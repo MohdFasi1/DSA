@@ -30,3 +30,6 @@ class Solution {
         return longest;
     }
 }
+
+// Time Complexity -> O(N)
+// Space Complexity -> O(n)
