@@ -1,3 +1,5 @@
+//LeetCode#704: https://leetcode.com/problems/binary-search/
+
 class Solution {
     public int search(int[] nums, int target) {
         /**
@@ -18,3 +20,6 @@ class Solution {
         return -1;
     }
 }
+
+// Time Complexity: O(logN)
+// Space Complexity: O(1)
