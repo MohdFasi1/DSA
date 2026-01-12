@@ -10,7 +10,6 @@ class Solution {
          * if last elem is smaller than target, then search in left sub array (0 to pivot).
          * else search in right sub array (pivot to n)
          */
-find the minimum in the rotated sorted array. divide the index into 2 sorted arrays using index of minimum value.
         while(l < r){
             int mid = l + (r - l)/2;
             if(nums[mid] > nums[r]) l = mid + 1;
